@@ -1,0 +1,650 @@
+/*******NAVBAR START********/
+.navbar-brand img {
+	width: 111px;
+}
+
+.navbar {
+	border-bottom: 1px solid #fbfbfb7a;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #99cc66;
+	transition: .6s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+	color: #99cc66;
+	font-family: sans-serif;
+
+}
+
+.menu-bg {
+	background-color: #000000e0;
+}
+
+/*******NAVBAR END********/
+
+/*******SLIDER SECTION START********/
+.carousel-item {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+.carousel-caption {
+	margin-bottom: 150px;
+}
+
+.carousel-caption h1 {
+	font-size: 100px;
+	border: 2px solid #fff;
+	max-width: 670px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.carousel-caption span {
+	color: #99cc66;
+}
+
+.carousel-caption h4 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.carousel-caption h6 {
+	font-size: 36px;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+
+.carousel-indicators li {
+	box-sizing: content-box;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #fff;
+	background-clip: padding-box;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	opacity: .5;
+	transition: opacity .6s ease;
+}
+
+.carousel-indicators li.active {
+	background-color: #99cc66;
+	transition: .5s;
+	transform: scale(1.4);
+}
+
+/*******SLIDER SECTION END********/
+
+/*******ABOUT SECTION START********/
+#aboutSection {
+	padding: 110px 0;
+}
+
+#aboutSection h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#aboutSection p {
+	max-width: 695px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.aboutWrapper {
+	margin-top: 60px;
+}
+
+.aboutWrapper .fa {
+	font-size: 36px;
+}
+
+.aboutWrapper .col-md-3:hover .fa,
+.aboutWrapper .col-md-3:hover h3 {
+	color: #99cc66;
+	transition: .6s;
+}
+
+.aboutWrapper h3 {
+	font-size: 24px;
+	margin-top: 20px;
+
+}
+
+/*******ABOUT SECTION END********/
+
+/*******SERVICE SECTION START********/
+#serviceSection {
+	padding: 90px 0px;
+	background-color: #cccccc;
+}
+
+#serviceSection h3 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#serviceSection p {
+	max-width: 695px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.serviceImg {
+	position: relative;
+	overflow: hidden;
+}
+
+.serviceImg img {
+	width: 100%;
+}
+
+.img-overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .5s;
+}
+
+.serviceImg:hover .img-overlay {
+	top: 0;
+}
+
+.serviceIcon {
+	position: absolute;
+	left: 33%;
+	bottom: -100%;
+}
+
+.serviceIcon i {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	font-size: 15px;
+	line-height: 40px;
+	1` color: #fff;
+}
+
+.serviceIcon i:hover {
+	background-color: #87d37c;
+	border-color: #87d37c;
+	transition: .5s;
+}
+
+.serviceIcon .fa {
+	color: #fff;
+}
+
+.serviceImg:hover .serviceIcon {
+	bottom: 40%;
+	transition: .6s;
+}
+
+/*******SERVICE SECTION END********/
+
+
+
+/******OUT PORTFOLIO SECTION START**********/
+#portfolioSection {
+	padding: 100px 0px;
+}
+
+#portfolioSection h2 {
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#portfolioSection p {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* ---- button ---- */
+
+.button {
+	display: inline-block;
+	padding: 0.5em 1.0em;
+	background: #000;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+.button:hover {
+	background-color: #87d37c;
+
+	color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+	background-color: #87d37c;
+}
+
+.button.is-checked {
+	color: white;
+
+}
+
+
+
+/* ---- button-group ---- */
+
+.button-group {
+	margin-bottom: 20px;
+}
+
+
+
+.button-group .button {
+
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 11px;
+}
+
+
+
+/* ---- isotope ---- */
+
+
+
+/* clear fix */
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+	position: relative;
+	float: left;
+	width: 33%;
+	color: #262524;
+	border: 12px solid #fff;
+	overflow: hidden;
+}
+
+.element-item img {
+	width: 100%;
+}
+
+.grid {
+	margin: 0 70px;
+}
+
+.isotopeOverlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .6s;
+}
+
+.element-item:hover .isotopeOverlay {
+	top: 0;
+}
+
+.isotopeOverlay h3 {
+	color: #87d37c;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 130px;
+}
+
+
+
+/******OUT PORTFOLIO SECTION END**********/
+
+/******PRICIN TABLE START**********/
+#pricingTable h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#pricingTable p {
+	max-width: 700px;
+	margin: 0 auto;
+
+}
+
+.pricing {
+	background-color: #333333;
+	padding: 20px;
+	border-radius: 5px;
+	color: #fff;
+	transition: .7s;
+}
+
+.pricingTop {
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+	margin: 0 auto;
+	transition: .6s;
+}
+
+.pricingTop p {
+	padding-top: 20px;
+}
+
+.pricingTop sup {
+	font-size: 20px;
+	top: -4px;
+	left: -5
+}
+
+.pricingTop em {
+	font-size: 28px;
+}
+
+.pricingTop span {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.pricing ul {
+	padding: 0;
+}
+
+.pricing ul li {
+	max-width: 145px;
+	border-bottom: 1px solid #fff;
+	list-style: none;
+	margin: 0 auto;
+	padding: 13px 0;
+	font-size: 16px;
+}
+
+.btn {
+	background-color: #fff;
+	color: #39393a;
+	text-transform: uppercase;
+	border-radius: 0px;
+	font-weight: 500;
+	margin-top: 10px;
+	padding: 5px 20px;
+	transition: .5s;
+}
+
+.pricing:hover {
+	background-color: #87d37c;
+	color: #fff;
+}
+
+.pricing:hover .btn {
+	color: #87d37c;
+	background-color: #fff;
+}
+
+.pricing:hover .pricingTop {
+	background-color: #fff;
+	color: #87d37c;
+}
+
+/******PRICIN TABLE END**********/
+
+
+/******COUNTER SECTION START**********/
+
+#count-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/counter-img.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 80px 0px;
+}
+
+.single-fact {
+	background-color: rgb(0 0 0 / 46%);
+	border: 1px solid #6363639c;
+	padding: 20px;
+	margin: 10px 0;
+}
+
+.single-fact p {
+	margin-bottom: 0px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.cWrapper {
+	margin: 0px 62px;
+}
+
+/******COUNTER SECTION END**********/
+
+/******CONTACT SECTION START**********/
+#contactUs {
+	padding: 100px 0;
+}
+
+#contactUs h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#contactUs p {
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.contact-content i {
+	color: #232424;
+	font-size: 45px;
+	line-height: 60px;
+}
+
+.contact-content h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.contact-content h4 {
+	font-size: 14px;
+}
+
+.contact-content i,
+h4 {
+	transition: .7s;
+}
+
+.contact-content:hover i,
+.contact-content:hover h3 {
+	color: #99cc66;
+
+}
+
+
+
+#contactSection {
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+}
+
+.form-control {
+	border-radius: 0;
+	border: 1px solid #fff;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.form-control:focus {
+	border-color: #ffffff;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.form-group textarea {
+	padding-bottom: 11px;
+}
+
+#contactSection .btn {
+	margin-top: 6px;
+	background-color: #87D37C;
+	color: #fff;
+	border: none;
+	padding: 5px 30px;
+}
+
+#contactSection .btn:hover {
+	background-color: #cecece;
+	color: #333;
+}
+
+.contactWrapper {
+	margin: 0 50px;
+}
+
+/******CONTACT SECTION END**********/
+
+
+#contact-map {
+	min-height: 400px;
+	width: 100%;
+}
+
+
+
+
+
+#footer {
+	background-color: #000;
+	padding: 20px 0;
+	color: #fff;
+}
+
+.footer-text p {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-icon i {
+	font-size: 18px;
+	margin: 0 10px 0 10px;
+}
+
+.footer-icon i:hover {
+	color: #8ACA7B;
+}
+
+
+/*----scroll up----*/
+.scrollup {
+	width: 50px;
+	height: 45px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #87d37c;
+	text-align: center;
+	position: fixed;
+	bottom: 65px;
+	right: 30px;
+}
+
+
+
+@media(max-width:575px) {
+	.carousel-caption h1 {
+		font-size: 40px;
+		border: 2px solid #fff;
+		max-width: 670px;
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	.carousel-caption h6 {
+		font-size: 20px;
+		font-family: sans-serif;
+		margin-top: 10px;
+	}
+
+	.carousel-caption h4 {
+		font-family: sans-serif;
+		font-size: 24px;
+	}
+
+	.grid {
+		margin: 0px 0px;
+	}
+
+	.aboutWrapper {
+		margin: 0 45px;
+	}
+
+	.serviceImg {
+		max-width: 292px;
+		margin: 0 auto;
+	}
+
+	.element-item {
+		width: 100%;
+	}
+
+	.button-group .button {
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+	.contactWrapper {
+		margin: 0px 0px;
+	}
+
+	#contactSection .btn {
+		margin-top: 6px;
+		background-color: #87D37C;
+		color: #fff;
+		border: none;
+		padding: 5px 30px;
+		margin-left: 80px;
+	}
+
+
+}
